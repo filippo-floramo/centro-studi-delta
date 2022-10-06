@@ -1,12 +1,8 @@
-import app from "./app"
+import navLogic from "./logic/app"
 import './styles/styles.scss'
 
+navLogic()
 
-console.log("test success")
-
-const payoffCont = document.getElementById("lol");
-
-
-   if(payoffCont) { payoffCont.innerHTML = app()}
+console.log("allora")
 
 
