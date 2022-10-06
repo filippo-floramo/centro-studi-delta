@@ -1,0 +1,48 @@
+.nav {
+   position: fixed;
+   z-index: 99;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   height: 60px;
+   background-color: #fff;
+
+   color: darkblue;
+   filter: drop-shadow(0 3px 3px #d3d3d359);
+
+   &--left--container {
+
+      display: flex;
+      margin-left: 50px;
+      .nav--logo {
+         display: flex;
+      }
+
+      .nav--links {
+         display: flex;
+         align-items: center;
+         margin-left: 80px;
+
+         li {
+            display: inline-block;
+            margin-left: 40px;
+         }
+
+      }
+   }
+
+   &--right--container {
+      margin-right: 50px;
+
+      .login--button {
+         width: 150px;
+         height: 35px;
+
+         background-color: bisque;
+         border: none;
+         border-radius: 20px;
+      }
+   }
+}

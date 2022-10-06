@@ -1,0 +1,23 @@
+.hero::before {
+   display: block;
+   content: ' ';
+   height: 60px;
+}
+
+.hero {
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   &--payoff {
+      text-align: center;
+      font-size: 3.8rem;
+      line-height: 5rem;
+
+      margin-bottom: 70px;
+
+      
+   }
+}
