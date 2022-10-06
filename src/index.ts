@@ -3,6 +3,6 @@ import './styles/styles.scss'
 
 navLogic()
 
-console.log("allora")
+console.log("everything is working")
 
 
