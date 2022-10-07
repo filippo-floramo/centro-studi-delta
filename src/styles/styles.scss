@@ -1,12 +1,14 @@
 @import "config";
 @import "navbar";
 @import "hero";
+@import "description";
 
 
 
 body {
    width: 100%;
-   background-color: #f0f0f0;
+   background-color: darkblue;
+   color: white
 }
 
 @import "mobile";

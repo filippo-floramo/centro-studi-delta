@@ -1,4 +1,4 @@
-import navLogic from "./logic/app"
+import navLogic from "./logic/navbar"
 import './styles/styles.scss'
 
 navLogic()
