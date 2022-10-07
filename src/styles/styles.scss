@@ -3,12 +3,16 @@
 @import "hero";
 @import "description";
 
+html {
+   scroll-behavior: smooth;
+}
 
-
-body {
+ body {
    width: 100%;
    background-color: darkblue;
    color: white
+
+   
 }
 
 @import "mobile";

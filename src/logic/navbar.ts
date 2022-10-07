@@ -3,8 +3,12 @@ import hideNavbar from './hideNavbar';
 
 
 export default function navLogic() {
-   
+
+   /* Call all secondary nav functions */
+
    hideNavbar();
+
+   /* Declare variables */
 
    const body = checkType(document.querySelector("body"))
 
@@ -12,11 +16,14 @@ export default function navLogic() {
 
    const navLinks = checkType(document.querySelector(".nav--links"));
 
+   
+   /*Add more logic */
+
    hamburger.addEventListener("click", () => {
 
-     const toggleNavClass = navLinks.classList.toggle("active");
+      const toggleNavClass = navLinks.classList.toggle("active");
 
-      if(toggleNavClass) {
+      if (toggleNavClass) {
          body.style.overflowY = "hidden";
       } else {
          body.style.overflowY = "auto"
