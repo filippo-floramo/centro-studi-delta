@@ -1,5 +1,5 @@
 import navLogic from "./logic/navbar"
-import './styles/styles.scss'
+import '../styles/styles.scss'
 
 navLogic()
 

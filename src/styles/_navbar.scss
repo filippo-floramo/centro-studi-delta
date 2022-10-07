@@ -18,11 +18,17 @@
 
    .nav--logo {
       display: flex;
+      align-items: center;
       margin-left: 30px;
+      height: 100%;
    }
 
    .name {
       margin-left: 10px;
+   }
+
+   .logo {
+      height: 70%
    }
 
    .nav--links {

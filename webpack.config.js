@@ -10,7 +10,7 @@ const stylesHandler = isProduction
   : "style-loader";
 
 const config = {
-  entry: "./src/index.ts",
+  entry: "./src/ts/index.ts",
   output: {
     path: path.resolve(__dirname, "dist"),
   },
@@ -22,7 +22,7 @@ const config = {
     new HtmlWebpackPlugin({
       template: "index.html",
     }),
-  
+
   ],
 
   module: {
@@ -39,6 +39,22 @@ const config = {
       {
         test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
         type: "asset",
+      },
+      {
+        test: /\.html$/i,
+        use: ["html-loader"]
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: {
+          loader: 'file-loader',
+          options: {
+            outputPath: 'assets/images/',
+            name: '[name].[ext]',
+            url: true,
+            publicPath: './src/img/',
+          }
+        }
       },
     ],
 
