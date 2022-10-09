@@ -1,4 +1,4 @@
-import { checkType } from '../utils/utils';
+import { checkType } from '../../utils/utils';
 import hideNavbar from './hideNavbar';
 
 
