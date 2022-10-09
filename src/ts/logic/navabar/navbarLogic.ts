@@ -2,7 +2,7 @@ import { checkType } from '../../utils/utils';
 import hideNavbar from './hideNavbar';
 
 
-export default function navLogic() {
+export default function navbarLogic() {
 
    /* Call all secondary nav functions */
 

@@ -1,9 +1,9 @@
-import navLogic from "./logic/navabar/navbar"
-import description from "./logic/description/description"
+import navbarLogic from "./logic/navabar/navbarLogic"
+import descriptionLogic from "./logic/description/descriptionLogic"
 import '../styles/styles.scss'
 
-navLogic()
-description()
+navbarLogic();
+descriptionLogic();
 console.log("everything is working")
 
 
