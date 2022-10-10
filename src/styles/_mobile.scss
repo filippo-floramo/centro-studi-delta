@@ -48,7 +48,12 @@
 
 
 
-
 }
 
+@media (max-width: 375px) {
+   /**Cards*/
 
+   .cards {
+     gap: 0;
+   }
+}

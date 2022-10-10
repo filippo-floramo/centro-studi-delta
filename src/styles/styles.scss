@@ -1,11 +1,10 @@
 @import "config";
+@import "mixins";
+
 @import "navbar";
 @import "hero";
 @import "description";
-
-html {
-   scroll-behavior: smooth;
-}
+@import "cards";
 
 
 @import "mobile";

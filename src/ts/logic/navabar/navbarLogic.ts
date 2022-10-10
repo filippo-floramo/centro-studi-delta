@@ -16,7 +16,7 @@ export default function navbarLogic() {
 
    const navLinks = checkType(document.querySelector(".nav--links"));
 
-   
+
    /*Add more logic */
 
    hamburger.addEventListener("click", () => {

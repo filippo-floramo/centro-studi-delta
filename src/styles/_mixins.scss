@@ -1,0 +1,14 @@
+@mixin cta-style($width, $height) {
+   width: $width;
+   height: $height;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+@mixin cta-hover {
+   cursor: pointer;
+   background-color: white;
+   transition-duration: 0.5s;
+}
