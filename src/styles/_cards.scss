@@ -1,6 +1,6 @@
 .cards {
    min-height: 70vh;
-   padding: 60px 0;
+   padding: 60px 20px;
 
    display: flex;
    align-items: center;
@@ -11,12 +11,24 @@
    .card {
       min-width: 300px;
       height: 350px;
+
+      padding: 0 10px;
       
       border: 1px solid white;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
+
+      
+      .card--text {
+         text-align: center;
+         line-height: 2rem;
+
+      }
+      
+
+
 
       &--cta {
          @include cta-style(150px, 50px);
@@ -26,6 +38,10 @@
          a {
             text-decoration: none;
             color: white;
+         }
+
+         &:hover {
+            @include cta-hover
          }
       }
    }

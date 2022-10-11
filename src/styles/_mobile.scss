@@ -3,15 +3,15 @@
 
    /*Navbar*/
    .nav {
-      
+
 
       .nav--links {
          position: fixed;
          z-index: 96;
 
          height: 100vh;
-         margin-right: 0; 
-         
+         margin-right: 0;
+
          width: 200px;
          right: -200px;
          top: 0;
@@ -21,10 +21,10 @@
 
          background-color: blue;
 
-         
+
          transition: all 0.3s ease-out;
 
-         
+
 
          li {
             margin-bottom: 30px;
@@ -51,9 +51,14 @@
 }
 
 @media (max-width: 375px) {
-   /**Cards*/
 
+   /**Cards*/
    .cards {
-     gap: 0;
+      .card {
+         min-width: 0;
+         width: 100%;
+      }
    }
+
+
 }

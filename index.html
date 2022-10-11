@@ -5,43 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d2b9ebd29d.js" crossorigin="anonymous"></script>
+
+
     <title>CSD | Centro Studi Delta</title>
 </head>
 
 <body>
+    <!--Navbar -->
+    <nav class="nav" style="top: 0px;">
+
+        <div class="nav--logo">
+            <img class="logo" src="./src/img/favicon.svg" alt="logo">
+            <h1 class="name">Centro Studi Delta</h1>
+        </div>
+
+        <ul class="nav--links">
+            <li class="link"><a href="#">Chi siamo</a></li>
+            <li class="link"><a href="#">Servizi</a></li>
+            <li class="link"><a href="#">Risorse</a></li>
+            <li class="link"><a href="#">Contatti</a></li>
+            <li class="link login"><a href="#">Login</a></li>
+        </ul>
+
+        <div class="hamburger">
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+        </div>
+
+    </nav>
+
     <main>
-
-        <!--Navbar -->
-        <nav class="nav" style="top: 0px;">
-
-            <div class="nav--logo">
-                <img class="logo" src="./src/img/favicon.svg" alt="logo">
-                <h1 class="name">Centro Studi Delta</h1>
-            </div>
-
-            <ul class="nav--links">
-                <li class="link"><a href="#">Chi siamo</a></li>
-                <li class="link"><a href="#">Servizi</a></li>
-                <li class="link"><a href="#">Risorse</a></li>
-                <li class="link"><a href="#">Contatti</a></li>
-                <li class="link login"><a href="#">Login</a></li>
-            </ul>
-
-            <div class="hamburger">
-                <span class="line1"></span>
-                <span class="line2"></span>
-                <span class="line3"></span>
-            </div>
-
-        </nav>
-
         <!-- Hero Section-->
 
-        <header class="hero">
+        <section class="hero">
             <h1 class="hero--payoff">Le nostre </br>
                 competenze </br>
-                al servizio degli studenti</h1>
-        </header>
+                al servizio degli studenti
+            </h1>
+        </section>
 
         <!-- Description-->
 
@@ -66,25 +69,39 @@
             </div>
         </section>
 
-    <!--Cards-->
+        <!--Cards-->
         <section class="cards" id="card--container">
             <div class="card">
-                <h3 class="card--question"></h3>
-                <p class="card--text"></p>
+                <i class="fa-solid fa-pen fa-3x"></i>
+                <div class="card--text">
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p class>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
                 <div class="card--cta"><a href="">This is</a></div>
             </div>
             <div class="card">
-                <h3 class="card--question"></h3>
-                <p class="card--text"></p>
+                <i class="fa-solid fa-book-open fa-3x"></i>
+                <div class="card--text">
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p class>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
                 <div class="card--cta"><a href="">a</a></div>
             </div>
             <div class="card">
-                <h3 class="card--question"></h3>
-                <p class="card--text"></p>
+                <i class="fa-solid fa-graduation-cap fa-3x"></i>
+                <div class="card--text">
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p class>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
                 <div class="card--cta"><a href="">TEst</a></div>
             </div>
         </section>
     </main>
+
+    <!--Footer-->
+    <footer>
+
+    </footer>
 </body>
 
 </html>
