@@ -20,6 +20,8 @@
       justify-content: space-around;
       align-items: center;
 
+
+      
       
       .card--text {
          text-align: center;
@@ -30,18 +32,13 @@
 
 
 
-      &--cta {
-         @include cta-style(150px, 50px);
-         border-radius: 25px;
-         background-color: red;
-
-         a {
-            text-decoration: none;
-            color: white;
-         }
+      .arrow--redirect {
+         color: white;
+         padding: 10px 20px;
 
          &:hover {
-            @include cta-hover
+            transform: scale(1.3);
+            transition-duration: 0.3s;
          }
       }
    }
