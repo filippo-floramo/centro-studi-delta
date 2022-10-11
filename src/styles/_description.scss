@@ -1,9 +1,11 @@
 .description {
    color: black;
    position: relative;
-   height: 80vh;
+   height: 85vh;
    background-color: white;
    background-image: url(../img/carousel-background.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
 
 
    &--carousel {
@@ -27,7 +29,7 @@
 
    &--cta {
       position: absolute;
-      top: 90%;
+      top: 80%;
       left: 50%;
       transform: translateX(-50%);
 
