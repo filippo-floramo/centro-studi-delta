@@ -1,5 +1,4 @@
 .cards {
-   min-height: 70vh;
    padding: 60px 20px;
 
    display: flex;
@@ -24,7 +23,7 @@
       align-items: center;
 
       .card--icon {
-         color: darkblue;
+         color: rgb(18, 18, 139);
       }
       
       
@@ -38,7 +37,7 @@
       
 
       .arrow--redirect {
-         color: darkblue;
+         color: rgb(18, 18, 139);
          padding: 10px 20px;
 
          &:hover {

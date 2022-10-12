@@ -33,8 +33,5 @@ export default function navbarLogic() {
       // Burger Animation
 
       hamburger.classList.toggle("toggle");
-
-
    });
-
 }

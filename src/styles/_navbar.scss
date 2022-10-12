@@ -10,8 +10,7 @@
    background-color: #fff;
 
    color: white;
-   background-color: darkblue;
-   filter: drop-shadow(0 3px 3px #d3d3d359);
+   background-color: $primary-color;
 
    transition: all  0.3s ease-out;
 
@@ -25,6 +24,7 @@
 
    .name {
       margin-left: 10px;
+      font-size: clamp(1rem, 2vw, 1.3rem);
    }
 
    .logo {
@@ -46,9 +46,24 @@
             color:white;
          }
 
+         
          &:hover {
             cursor: pointer;
          }
+      }
+
+      .link::after {
+         content: " ";
+         display: block;
+         height: 1.6px;
+         background-color: white;
+         transform: scaleX(0);
+
+      }
+
+      .link:hover::after {
+         transform: scaleX(1);
+         transition: transform 0.5s ease-out;
       }
       
       .login {
@@ -57,9 +72,16 @@
          padding: 5px 18px;
                  
          a {
+            font-weight: 600;
             display: block;
             height: 100%;
-            margin-bottom: 5px;
+            margin-bottom: 1px;
+         }
+
+         &:hover {
+            transform: scale(1.1);
+            background-color: rgb(255, 3, 3);
+            transition-duration: 0.2s;
          }
       }
    }

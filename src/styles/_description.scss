@@ -4,9 +4,10 @@
    height: 85vh;
    background-color: white;
    background-image: url(../img/carousel-background.svg);
-   background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
+   background-position: right;
+   animation: background-lol 20s ease-in-out infinite alternate;
 
    &--carousel {
       overflow-x: hidden;
@@ -27,6 +28,7 @@
 
          h1 {
             text-align: center;
+            font-size: clamp(2rem, 7vw, 3rem);;
          }
 
 
@@ -54,5 +56,17 @@
          @include cta-hover;
       }
 
+   }
+}
+
+
+@keyframes background-lol {
+   0% {
+      background-size: 150%;
+   }
+
+
+   100% {
+      background-size: 300% ;
    }
 }
