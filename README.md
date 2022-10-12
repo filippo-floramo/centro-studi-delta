@@ -1,5 +1,9 @@
 # 🚀 About
 
-A landing page for an experimental online tutoring site.
+A landing page  prototype for an experimental online tutoring site.
 
-Just to consolidate my Webpack and Typescript skills.
+- All links (except footer) are dead links.
+- Description's background image is a placeholder.
+- More images should be added.
+
+It was just to consolidate my Webpack and Typescript skills.
