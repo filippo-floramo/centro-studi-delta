@@ -28,6 +28,13 @@ export default function navbarLogic() {
       } else {
          body.style.overflowY = "auto"
       }
+
+
+      // Burger Animation
+
+      hamburger.classList.toggle("toggle");
+
+
    });
 
 }

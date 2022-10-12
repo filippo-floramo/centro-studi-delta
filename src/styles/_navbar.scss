@@ -72,17 +72,29 @@
    flex-direction: column;
    justify-content: space-between;
    
+   
 
    span {
       height: 3px;
       width: 30px;
       background-color:white;
       border-radius: 10px;
-   }
-  }
+      transition: all 0.5s ease;
+   } 
+}
 
 }
 
+.toggle .line1 {
+   transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+   opacity: 0;
+}
+.toggle .line3 {
+   transform: rotate(45deg) translate(-5px, -6px);
+   
+}
 
 @keyframes logo {
    0% {

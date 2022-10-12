@@ -11,29 +11,34 @@
    .card {
       max-width: 360px;
       height: 350px;
+      padding: 0 20px;
+      background-color: white;
 
-      padding: 0 10px;
       
-      border: 1px solid white;
+      border-radius: 35px;
+
+
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
 
-
+      .card--icon {
+         color: darkblue;
+      }
       
       
       .card--text {
          text-align: center;
          line-height: 2rem;
 
+         color: black;
+
       }
       
 
-
-
       .arrow--redirect {
-         color: white;
+         color: darkblue;
          padding: 10px 20px;
 
          &:hover {
