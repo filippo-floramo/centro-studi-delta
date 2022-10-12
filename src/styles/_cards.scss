@@ -29,10 +29,15 @@
       
       .card--text {
          text-align: center;
-         line-height: 2rem;
-
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         height: 125px;
          color: black;
-
+         
+         p {
+            line-height: 1.4rem;
+         }
       }
       
 
