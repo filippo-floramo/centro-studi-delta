@@ -16,7 +16,6 @@ export default function navbarLogic() {
 
    const navLinks = checkType(document.querySelector(".nav--links"));
 
-
    /*Add more logic */
 
    hamburger.addEventListener("click", () => {
@@ -28,7 +27,6 @@ export default function navbarLogic() {
       } else {
          body.style.overflowY = "auto"
       }
-
 
       // Burger Animation
 

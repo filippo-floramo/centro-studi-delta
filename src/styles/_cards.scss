@@ -1,6 +1,5 @@
 .cards {
    padding: 60px 20px;
-
    display: flex;
    align-items: center;
    justify-content: center;
@@ -12,11 +11,7 @@
       height: 350px;
       padding: 0 20px;
       background-color: white;
-
-      
       border-radius: 35px;
-
-
       display: flex;
       flex-direction: column;
       justify-content: space-around;
@@ -25,7 +20,6 @@
       .card--icon {
          color: rgb(18, 18, 139);
       }
-      
       
       .card--text {
          text-align: center;
@@ -39,7 +33,6 @@
             line-height: 1.4rem;
          }
       }
-      
 
       .arrow--redirect {
          color: rgb(18, 18, 139);

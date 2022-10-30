@@ -11,7 +11,6 @@ export default function descriptionLogic() {
    let slideCounter = 0;
    let maxSlides = slides.length - 1;
 
-
    /* Set position of each silde */
 
    slides.forEach((slide, indx) => {
@@ -43,7 +42,6 @@ export default function descriptionLogic() {
       animateSlide();
    }
 
-
    /*automate carousel on interval */
 
    let interval: NodeJS.Timer;
@@ -58,15 +56,10 @@ export default function descriptionLogic() {
       }, 5000)
    }
 
-
-
    /*Set event listeners */
 
    window.onload = () => startCarousel();
 
-
-
    slideContainer.addEventListener('mouseover', () => { stopCarousel(); });
    slideContainer.addEventListener('mouseout', () => { startCarousel(); });
-
 }
